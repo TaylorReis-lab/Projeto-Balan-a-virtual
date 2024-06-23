@@ -6,7 +6,7 @@ Este projeto consiste em um servidor Node.js que envia dados de peso para o banc
 
 ## Estrutura do Projeto
 
-- `src/`
+- `back-end/`
   - `server.mjs`: Arquivo para execução do servidor.
   - `app.mjs`: Configurações principais do servidor.
   - `services/serial-service.mjs`: Configuração do serviço SerialPort.
@@ -49,6 +49,7 @@ Este projeto consiste em um servidor Node.js que envia dados de peso para o banc
    yarn install ou yarn i
 
 4. Configure o banco de dados no arquivo .env:
+     ```bash
     DB_HOST=127.0.0.1
     DB_USER=postgres
     DB_PASS=postgres
@@ -56,18 +57,18 @@ Este projeto consiste em um servidor Node.js que envia dados de peso para o banc
     DB_PORT=5432
     DB_DIALECT=postgres
 
-5. Realize o Seguinte comando para subir as migrations:
+6. Realize o Seguinte comando para subir as migrations:
    ```bash
    yarn sequelize db:migrate
 
-6. Realizar o dowload do docker para utilizar o comando:
+7. Realizar o dowload do docker para utilizar o comando:
    ```bash
    docker start sql-project-balance
 
-7. Para ter acesso ao front-end execute o index.html presente na pasta dentro dos arquivos:
-8. 
-9. Para comando iniciar o servidor:
+8. Para ter acesso ao front-end execute o index.html presente na pasta dentro dos arquivos:
+9. 
+10. Para comando iniciar o servidor:
    ```bash
    yarn dev
 
-10. Esta pronto para o uso, é possivel olhar tudo que esta sendo armazenado no banco pelo programa do postgres.
+11. Esta pronto para o uso, é possivel olhar tudo que esta sendo armazenado no banco pelo programa do postgres.
