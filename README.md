@@ -1,5 +1,4 @@
 # Project Balance
-
 ## Descrição
 
 Este projeto consiste em um servidor Node.js que envia dados de peso para o banco de dados e o exibe para o cliente pelo front-end.
@@ -28,9 +27,7 @@ Este projeto consiste em um servidor Node.js que envia dados de peso para o banc
 - Sequelize
 - websocket
 - serialport
-- Route
 - Docker
-- Dotenv
 
 ## Dependências para Organização do Codigo
 
@@ -48,7 +45,7 @@ Este projeto consiste em um servidor Node.js que envia dados de peso para o banc
    ```bash
    yarn install ou yarn i
 
-4. Configure o banco de dados no arquivo .env:
+3. Configure o banco de dados no arquivo .env:
      ```bash
     DB_HOST=127.0.0.1
     DB_USER=postgres
@@ -57,18 +54,18 @@ Este projeto consiste em um servidor Node.js que envia dados de peso para o banc
     DB_PORT=5432
     DB_DIALECT=postgres
 
-6. Realize o Seguinte comando para subir as migrations:
+4. Realize o Seguinte comando para subir as migrations:
    ```bash
    yarn sequelize db:migrate
 
-7. Realizar o dowload do docker para utilizar o comando:
+5. Realizar o dowload do docker para utilizar o comando:
    ```bash
    docker start sql-project-balance
 
-8. Para ter acesso ao front-end execute o index.html presente na pasta dentro dos arquivos:
-9. 
-10. Para comando iniciar o servidor:
+6. Para ter acesso ao front-end execute o index.html presente na pasta dentro dos arquivos:
+   ```bash
+   - `front-end/`
+      - `index.html`
+7. Para comando iniciar o servidor:
    ```bash
    yarn dev
-
-11. Esta pronto para o uso, é possivel olhar tudo que esta sendo armazenado no banco pelo programa do postgres.
