@@ -1,4 +1,3 @@
-# Project Balance
 ## Descrição
 
 Este projeto consiste em um servidor Node.js e um software que realiza a emulação de portas COM, que envia dados de peso para o banco de dados e o exibe para o cliente pelo front-end.
