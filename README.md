@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este projeto consiste em um servidor Node.js que envia dados de peso aleatórios para um frontend usando Socket.IO.
+Este projeto consiste em um servidor Node.js que envia dados de peso para o banco de dados e o exibe para o cliente pelo front-end.
 
 ## Estrutura do Projeto
 
