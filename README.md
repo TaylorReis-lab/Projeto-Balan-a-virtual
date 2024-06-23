@@ -41,7 +41,7 @@ Este projeto consiste em um servidor Node.js que envia dados de peso para o banc
 
 1. Clone o repositório:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/TaylorReis-lab/Projeto-Balanca-Virtual
    cd project-balance
 
 2. Intale as Dependência:
