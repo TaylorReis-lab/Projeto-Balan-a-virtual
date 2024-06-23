@@ -45,8 +45,8 @@ Este projeto consiste em um servidor Node.js que envia dados de peso para o banc
    cd project-balance
 
 2. Intale as Dependência:
-   
-   *yarn install ou yarn i*
+   ```bash
+   yarn install ou yarn i
 
 4. Configure o banco de dados no arquivo .env:
     DB_HOST=127.0.0.1
@@ -57,18 +57,17 @@ Este projeto consiste em um servidor Node.js que envia dados de peso para o banc
     DB_DIALECT=postgres
 
 5. Realize o Seguinte comando para subir as migrations:
-
-   *yarn sequelize db:migrate*
+   ```bash
+   yarn sequelize db:migrate
 
 6. Realizar o dowload do docker para utilizar o comando:
-
-   *docker start sql-project-balance*
+   ```bash
+   docker start sql-project-balance
 
 7. Para ter acesso ao front-end execute o index.html presente na pasta dentro dos arquivos:
-8. Para comando iniciar o servidor:
+8. 
+9. Para comando iniciar o servidor:
+   ```bash
+   yarn dev
 
-   *yarn dev*
-
-9. Esta pronto para o uso, é possivel olhar tudo que esta sendo armazenado no banco pelo programa do postgres.
-
-Software feito para cunhos de teste de conhecimento
+10. Esta pronto para o uso, é possivel olhar tudo que esta sendo armazenado no banco pelo programa do postgres.
